@@ -1,0 +1,23 @@
+;
+;  Database file localhost.dns for 0.0.7.in-addr.arpa zone.
+;      Zone version:  
+;
+
+@                       IN	SOA	ns1-12.a12-03-1.poit.bgtu.	administrator.ns1-12.a12-03-1.poit.bgtu.	(
+		2006092001            ; serial number
+                        	900          ; refresh 15m
+                        	600          ; retry	10m
+                        	86400        ; expire	1 day
+                        	3600       ) ; minimum TTL	1h
+
+;
+;  Zone NS records
+;
+
+@                       IN	NS	ns1-12.a12-03-1.poit.bgtu.
+
+;
+;  Zone records
+;
+
+1                       IN	PTR	localhost.
